@@ -59,6 +59,12 @@ body {
   color: #fff;
 }
 
+.container .details .icon {
+  transform: translateX(-50%);
+  margin-bottom: 80%;
+  cursor: pointer;
+}
+
 .container .details h2 {
   margin: 0;
   padding: 0;
@@ -75,9 +81,9 @@ body {
 
 .container .details p {
   max-width: 85%;
-  margin-left: 15%;
-  color: #ccc;
-  font-size: 15px;
+  margin-left: 5%;
+  color: #fff;
+  font-size: 16px;
 }
 
 .container .details h3 {
@@ -105,6 +111,18 @@ body {
   cursor: pointer;
 }
 
+.container .details .buttons {
+  display: flex;
+  margin-top: 45px;
+  justify-content: space-around;
+}
+
+.container .details .cart {
+  background: #fff;
+  color: #252C41;
+  float: left;
+}
+
 @media (max-width: 940px) {
   .container {
     height: auto;
@@ -122,6 +140,10 @@ body {
   .container .imgBox img {
     left: initial;
     max-width: 100%;
+  }
+
+  .container .details .icon {
+    margin-bottom: 20%;
   }
 
   .details {
